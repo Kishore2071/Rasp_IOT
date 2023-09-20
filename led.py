@@ -1,6 +1,8 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
+# Led blink program using RPI-GPIO module
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.OUT)
 
